@@ -487,12 +487,14 @@ footer p {
   }
 
   .feature-box {
+    width: 100%;
     margin: 0 auto;
     float: none;
   }
 
   .feature-box-item {
     display: block;
+    width: 100%;
   }
 
   .profile {
@@ -536,12 +538,12 @@ footer p {
     text-align: center;
   }
 
-  .my-icon {
-    width: 90%;
-  }
-
   .myname {
     margin-top: 20px;
+  }
+
+  .my-icon {
+    margin: 0 auto;
   }
 
   .contact {
