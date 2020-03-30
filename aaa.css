@@ -11,7 +11,7 @@ header {
 }
 
 .header {
-  width: 1024px;
+  /* width: 1024px; */
   margin: 0 auto;
 }
 
@@ -278,6 +278,7 @@ nav {
 
 .self-introduction {
   width: 512px;
+  margin: 0 auto;
   float: right;
 }
 
@@ -427,17 +428,9 @@ footer p {
 
   .fa-bars {
     color: white;
+    font-size: 50px;
   }
 
-  .menu-box {
-    float: right;
-    width: 40px;
-    height: 40px;
-    margin-right: 5%;
-    border: 1px solid white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
 
   .main-visual {
     width: 100%;
@@ -489,9 +482,18 @@ footer p {
     display: block;
   }
 
+  .profile {
+    width: 100%;
+    text-align: center;
+  }
+
   .my-icon {
     display: block;
     float: none;
+  }
+
+  .introduction {
+    width: 100%;
   }
 
   .p1 {
