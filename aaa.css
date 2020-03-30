@@ -11,7 +11,7 @@ header {
 }
 
 .header {
-  /* width: 1024px; */
+  width: 1024px;
   margin: 0 auto;
 }
 
@@ -277,7 +277,7 @@ nav {
 }
 
 .self-introduction {
-  width: 512px;
+  width: 50%;
   margin: 0 auto;
   float: right;
 }
@@ -514,6 +514,14 @@ footer p {
     float: none;
   }
 
+  .skill {
+    text-align: center;
+  }
+
+  .myskillstext {
+    text-align: center;
+  }
+
   .myname {
     margin-top: 20px;
   }
@@ -522,6 +530,10 @@ footer p {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .sns {
+    margin: 0 auto;
   }
 
   .tellm {
