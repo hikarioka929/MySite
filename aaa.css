@@ -413,6 +413,14 @@ footer p {
     height: 50px;
   }
 
+  .lorem {
+    font-size: 40px;
+  }
+
+  .simple {
+    font-size: 18px;
+  }
+
   .fa-bars {
     float: right;
     display: block;
@@ -447,6 +455,7 @@ footer p {
     display: block;
     margin: 0 auto;
     float: none;
+    width: 100%;
   }
 
   .portfolio1 {
@@ -471,6 +480,10 @@ footer p {
   .portfolio-a {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .feature {
+    width: 100%;
   }
 
   .feature-box {
@@ -512,6 +525,7 @@ footer p {
   .self-introduction {
     display: block;
     float: none;
+    width: 100%;
   }
 
   .skill {
@@ -520,6 +534,10 @@ footer p {
 
   .myskillstext {
     text-align: center;
+  }
+
+  .my-icon {
+    width: 90%;
   }
 
   .myname {
@@ -532,8 +550,13 @@ footer p {
     text-align: center;
   }
 
+  .mailandtel {
+    width: 100%;
+  }
+
   .sns {
     margin: 0 auto;
+    width: 100%;
   }
 
   .tellm {
