@@ -11,7 +11,7 @@ header {
 }
 
 .header {
-  width: 1024px;
+  /* width: 1024px; */
   margin: 0 auto;
 }
 
@@ -397,16 +397,12 @@ footer p {
     box-sizing: border-box;
   }
 
-  body {
-    width: 90%;
-  }
-
   .wrapper {
     overflow: hidden;
   }
 
 	header{
-		height: 50px;
+    height: 50px;
   }
 
   header .logo {
@@ -455,7 +451,11 @@ footer p {
     display: block;
     margin: 0 auto;
     float: none;
-    width: 100%;
+    width: 90%;
+  }
+
+  .all-portfolio {
+    margin: 0 auto;
   }
 
   .portfolio1 {
@@ -477,29 +477,22 @@ footer p {
     display: block;
   }
 
-  .portfolio-a {
-    width: 100%;
-    margin: 0 auto;
-  }
-
   .feature {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 5%;
   }
 
   .feature-box {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     float: none;
+    padding-bottom: 90px;
   }
 
   .feature-box-item {
     display: block;
     width: 100%;
-  }
-
-  .profile {
-    width: 100%;
-    text-align: center;
   }
 
   .my-icon {
@@ -508,7 +501,7 @@ footer p {
   }
 
   .introduction {
-    width: 100%;
+    width: 90%;
   }
 
   .p1 {
@@ -522,6 +515,12 @@ footer p {
   .profile {
     width: 100%;
     text-align: center;
+    margin: 0 auto;
+  }
+
+  .profile-a {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .self-introduction {
@@ -547,7 +546,7 @@ footer p {
   }
 
   .contact {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
   }
