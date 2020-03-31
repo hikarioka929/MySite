@@ -403,6 +403,11 @@ footer p {
 
 	header{
     height: 50px;
+    padding: 0 5%;
+  }
+
+  .header {
+    width: 90%;
   }
 
   header .logo {
