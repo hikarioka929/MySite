@@ -458,6 +458,14 @@ footer p {
     margin: 0 auto;
   }
 
+  .top-portfolio {
+    width: 300px;
+  }
+
+  .tail-portfolio {
+    width: 300px;
+  }
+
   .portfolio1 {
     display: none;
   }
@@ -472,6 +480,7 @@ footer p {
   }
   .portfolio4 {
     display: block;
+    margin-bottom: 10px;
   }
   .portfolio6 {
     display: block;
